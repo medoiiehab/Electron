@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+    <head>
+        <title>ELECTRON</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" type="image/png" sizes="32x32" href="Pics/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Pics/favicon-16x16.png">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="Css/Styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <script src="https://kit.fontawesome.com/d93fe27604.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e78f8f1093.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       <!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-card blacky" id="myNavbar">
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="w3-bar-item w3-btn w3-left w3-hide-large" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-btn w3-wide w3-padding-24 w3-large">ELECTRÓN</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small w3-hide-medium">
+        <a href="#about" class="w3-bar-item w3-btn listb w3-padding-24 w3-large">ABOUT</a>
+        <a href="#team" class="w3-bar-item w3-btn listb w3-padding-24 w3-large"><i class="fa fa-user"></i> TEAM</a>
+        <a href="#work" class="w3-bar-item w3-btn listb w3-padding-24 w3-large"><i class="fa fa-th"></i> WORK</a>
+        <a href="#contact" class="w3-bar-item w3-btn listb w3-padding-24 w3-large"><i class="fa fa-envelope"></i> CONTACT</a>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block blacky w3-card w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-btn w3-large w3-padding-16">Close ×</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-btn">ABOUT</a>
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-btn">TEAM</a>
+    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-btn">WORK</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-btn">CONTACT</a>
+  </nav> 
+  <!-- the opening-->
+  <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-middle w3-margin-top w3-center">
+        <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding blacky"><i class="fa-solid fa-atom" ></i></span>
+            <span class="w3-hide-small" style="color: #E6AF2E;"><b>ELECTRÓN</b></span><br>
+             <span class="w3-xlarge w3-padding-16 w3-margin-top" style="color: #F5D061;">Simplicity, modernity, and creativity
+                <span class="w3-hide-small w3-hide-medium ">all in one place</span> </span></h1>
+            
+      </div>
+      <div class="w3-display-bottomleft w3-margin-left gold w3-xlarge" style="padding:24px 10px">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </div>
+      <a href="#about" class="w3-display-bottommiddle w3-padding-16 whitey w3-btn w3-opacity buttony" style="margin-bottom: 30px;">Learn More</a>
+  </header>
+
+  <!-- About -->
+  <div class="w3-container blacky"><h2 class=" w3-padding-16 w3-center"><b>About The Company</b></h2></div>
+<div id="about" class="w3-container w3-padding-32">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    </div>
+ <!-- The Key Features -->
+    <div class="w3-container blacky"><h2 class=" w3-padding-16 w3-center"><b>Our Key Features</b></h2>
+    <h3 class="w3-center w3-wide">What Makes Us Different</h3></div>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+        <div class="w3-quarter">
+          <i class="fa fa-desktop w3-margin-bottom w3-jumbo gold w3-center"></i>
+          <h2 class="blacky">Responsive</h2>
+          <p><b>Caring for the quality of the product, makes you care about the responsiveness.</b>
+            <br><br>So we always make sure that it runs well on all of the devices. After making the design we will make sure it Works
+            just fine with every device no matter the screen-size.
+          </p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-heart w3-margin-bottom  w3-jumbo gold"></i>
+          <h2 class="blacky">Passion</h2>
+          <p><b>"Nothing is as important as passion. No matter what you want to do with your life, be passionate."</b><br><br>
+            Passion is what drives us forward and what makes us determant toward improvment.
+        what is the meaning of life without passion?!</p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-diamond w3-margin-bottom w3-jumbo gold"></i>
+          <h2 class="blacky">Design</h2>
+          <p><b>"Simplicity Is a Life Style"</b><br><br>
+            We care about the user of the product, So we care about the UI (user interface) that they use, 
+            always making it simple, one scroll, one click away from everything.
+          </p>
+        </div>
+        <div class="w3-quarter">
+          <i class="fa fa-cog w3-margin-bottom w3-jumbo gold"></i>
+          <h2 class="blacky">Support</h2>
+
+          <p><b>Active 24/7</b><br><br>
+            We are Always here to support and help you, if you feel confused or you encountred a problem, contact us and we will 
+        respond and solve the problem within 24 hours. </p>
+        </div>
+      </div>
+  
+      <!-- Skills Section -->
+<div class="w3-container blacky w3-padding-64 w3-card-4">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+        <h2 class="w3-xxlarge"><b>Our Skills</b></h2>
+        <p class="w3-large" style="color: #F5D061;">Our team has diverse skills that fit into making a perfect product and supporting it.
+           Always Improving our set of skills and making the range of our skills wider day by day.</p>
+        <p class="w3-large lighty">
+          <span>&nbsp;Sound Systems.</span><br><br>
+          <span>&nbsp;Electrical Systems.</span><br><br>
+          <span>&nbsp;Security Software.</span><br><br>
+          <span>&nbsp;Web Design.</span><br><br>
+          <span>&nbsp;Graphic Design.</span>
+          
+        </p>
+      </div>
+      <div class="w3-col m6">
+        <p class="w3-wide "><i class="fa-solid fa-music"></i>&nbsp;Sound Systems</p>
+        <div class="w3-grey">
+          <div class="w3-container whitey w3-center" style="width:98%"><b>98%</b></div>
+        </div>
+        <p class="w3-wide "><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
+        <div class="w3-grey">
+          <div class="w3-container whitey w3-center" style="width:92%"><b>92%</b></div>
+        </div>
+        <p class="w3-wide "><i class="fa fa-photo w3-margin-right"></i>Graphic Design</p>
+        <div class="w3-grey">
+          <div class="w3-container whitey w3-center" style="width:80%"><b>80%</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+<!--the Work-->
+<div class="c-heroImageGrid" style="margin-top: 10px;">
+	<div class="container">
+		<div class="column"></div>
+		<div class="column">
+			<div class="row"></div>
+			<div class="row">
+				<div>
+					<div class="text w3-hide-small">
+						<h6>
+							Our Work<br>
+							Made with Passion
+						</h6>
+						<p class="w3-large">
+							Here are some of the things we modify in the sound, we concentrated on that section out of, all because you can
+                            see the web design and development in the website itself.
+						</p>
+					</div>
+				</div>
+				<div></div>
+			</div>
+			<div class="row"></div>
+		</div>
+	</div>
+</div>
+
+    <!-- Promo Section "Statistics" -->
+    <div class="w3-container w3-row w3-center blacky w3-padding-64 w3-card-4">
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">14+</span>
+          <br>Partners
+        </div>
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">55+</span>
+          <br>Projects Done
+        </div>
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">89+</span>
+          <br>Happy Clients
+        </div>
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">150+</span>
+          <br>Meetings
+        </div>
+      </div>
+      <!--contact us-->
+      <div class="bgimg1 w3-display-container">
+        <h1 class="gold w3-display-topmiddle w3-jumbo">Contact Us</h1>
+        <div class="lighty w3-display-middle w3-xxxlarge ">
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right "></i> Dakahlia, EG</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right "></i> Phone: 43578934689</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right "> </i> Email:anonymous@hotmail.com</p>
+        </div>
+
+      </div>
+
+     <!--footer-->
+     <footer class="w3-container blacky">
+        <h2 class=" w3-left">Copyright &copy; ELECTRÓN</h2>
+        <h2 class="w3-right">Terms and Conditions</h2>
+        <div class="w3-center w3-container w3-xxlarge" style="padding-bottom: 20px;">
+            <a class="w3-btn w3-circle" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a class="w3-btn w3-circle" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a class="w3-btn w3-circle" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
+     </footer> 
+  <!-- the javascript-->
+  <script src="JS/javaScript.js"></script>
+    </body>
+
+</html>
